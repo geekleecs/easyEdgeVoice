@@ -1,0 +1,15 @@
+{
+  "name": "easyedgevoice",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env MODE=development pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "start": "cross-env MODE=production pnpm -r --parallel start"
+  },
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

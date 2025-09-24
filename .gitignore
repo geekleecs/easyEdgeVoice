@@ -1,0 +1,65 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+*.pid
+*.seed
+*.pid.lock
+
+# 日志文件
+logs/
+*.log
+
+# 音频生成文件
+**/audio/**
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.webm
+*.srt
+
+# 缓存和临时文件
+*.cache
+*.tmp
+.cache/
+temp/
+tmp/
+
+# 依赖和构建产物
+**/node_modules/**
+**/dist/**
+build/
+out/
+coverage/
+.nyc_output/
+
+# 环境配置文件
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+enc.config
+
+# 分析文件
+**analysis**
+
+# 脚本文件
+run.test.sh
+run.prod.sh
+**test**.sh
+scripts/docker-compose.yml
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
