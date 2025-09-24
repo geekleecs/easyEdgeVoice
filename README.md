@@ -229,3 +229,9 @@ brew install ffmpeg
 - 当前通过 Edge-TTS API 提供免费语音合成。  
 
 - 未来计划支持Coze TTS、Google TTS等功能，丰富内容创作和管理。
+
+- 支持文案内容创作管理到语音合成的一站式服务。
+
+## 鸣谢
+
+- 本项目基于@EasyVoice（https://github.com/cosin2077/easyVoice）开源项目开发，并基于GNU GENERAL PUBLIC LICENSE开源发布。 
